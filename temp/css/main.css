@@ -1,0 +1,90 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.container {
+    width: 960px; /* not responsive! :( */
+}
+
+.navbar-inner {
+    height: 8em;
+    font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+    font-weight: lighter;
+    color: #B5E853;
+}
+
+.site-title {
+    text-align: center;
+    font-size: 2em;
+    font-weight: lighter;
+    margin-top: 0.2em;
+}
+
+/* centered float for menu. classic css hack: http://pmob.co.uk/pob/centred-float.htm */
+
+.menu {
+    float: right;
+    position: relative;
+    left: -50%;
+    text-align: left;
+}
+
+.menu-list {
+    margin-top: 2em;
+    text-align: center;
+    list-style: none; 
+    position: relative;
+    left: 50%;
+    list-style-position: inside;
+}
+
+.menu-list-item {
+    float: left;
+    position: relative;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.menu-list-item-link {
+    text-decoration: none;
+}
+
+.menu-list-item-link:hover, .menu-list-item-link:active, .menu-list-item-link:visited, .menu-list-item-link:link {
+    color: #B5E853;
+}
+
+section {
+    color: #333;
+    font-family: 
+}
+
+.sec-title {
+    font-size: 2em;
+    font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+    font-weight: lighter;
+    padding-top: 1em;
+    padding-left: 1em;
+}
+
+.sec-title:hover {
+    color: #B5E853;
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+}
+
+.license-link {
+    color: #333;
+}
+
+.license-link:active, .license-link:visited, .license-link:link {
+    color: #333;
+}
+
+.license-link:hover {
+    text-decoration: underline;
+}
